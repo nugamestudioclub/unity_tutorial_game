@@ -13,7 +13,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField] private PlayerGroundDetector _playerGroundDetector;
 
-    [SerializeField] private PlayerMovementSettings _playerMovementSettings;
+    [SerializeField] private PlatformerPlayerMovementSettings _platformerPlayerMovementSettings;
 
     //controls how high player jumps
     private float _jumpHeight;
@@ -23,8 +23,8 @@ public class PlayerJump : MonoBehaviour
 
     private void Update()
     {
-        _jumpHeight = _playerMovementSettings.jumpHeight;
-        _downGravity = _playerMovementSettings.downGravity;
+        _jumpHeight = _platformerPlayerMovementSettings.jumpHeight;
+        _downGravity = _platformerPlayerMovementSettings.downGravity;
 
         if (Input.GetKeyDown("space"))            
         {

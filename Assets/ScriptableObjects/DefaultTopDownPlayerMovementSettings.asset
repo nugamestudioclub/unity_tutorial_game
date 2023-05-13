@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9981ed186344a3438d0bd0b5af5fcff, type: 3}
-  m_Name: DefaultPlayerMovementSettings
+  m_Script: {fileID: 11500000, guid: d43bbd009f26ec643992a86620b26f23, type: 3}
+  m_Name: DefaultTopDownPlayerMovementSettings
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  jumpHeight: 16
-  downGravity: 1

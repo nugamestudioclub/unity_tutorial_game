@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New PlayerMovementSettings", menuName = "PlayerMovementSettings")] 
-public class PlayerMovementSettings : ScriptableObject
+public class PlatformerPlayerMovementSettings : ScriptableObject
 {
     public float moveSpeed;
 
