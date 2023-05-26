@@ -13,7 +13,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField] private PlayerGroundDetector _playerGroundDetector;
 
-    [SerializeField] private PlatformerPlayerMovementSettings _platformerPlayerMovementSettings;
+    [SerializeField] private PlayerMovementSettings _platformerPlayerMovementSettings;
 
     //controls how high player jumps
     private float _jumpHeight;

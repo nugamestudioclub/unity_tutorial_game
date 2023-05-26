@@ -92,7 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerRigidbody2D: {fileID: 2001448832475063999}
   _playerGroundDetector: {fileID: 2001448831793379494}
-  _platformerPlayerMovementSettings: {fileID: 11400000, guid: 7813bd8a97355a0468d7272303978dca, type: 2}
+  _platformerPlayerMovementSettings: {fileID: 11400000, guid: cc9efa6643e2b214c8c3455a297271bc, type: 2}
 --- !u!1 &2001448831793379492
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerRigidbody2D: {fileID: 2001448832475063999}
-  _platformerPlayerMovementSettings: {fileID: 11400000, guid: 7813bd8a97355a0468d7272303978dca, type: 2}
+  _playerMovementSettings: {fileID: 11400000, guid: cc9efa6643e2b214c8c3455a297271bc, type: 2}
 --- !u!1 &2001448832475063997
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 2001448832475063999}
   - component: {fileID: 2001448832475063996}
   m_Layer: 0
-  m_Name: 2D Platformer Player
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

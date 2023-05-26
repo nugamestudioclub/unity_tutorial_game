@@ -7,18 +7,18 @@ public class PlayerMove : MonoBehaviour
 
     [SerializeField] private Rigidbody2D _playerRigidbody2D;
 
-    [SerializeField] private PlatformerPlayerMovementSettings _platformerPlayerMovementSettings;
+    [SerializeField] private PlayerMovementSettings _playerMovementSettings;
 
-    private float moveSpeed;
+    private float _moveSpeed;
 
-    private Vector2 moveDirection = Vector2.zero;
+    private Vector2 _moveDirection = Vector2.zero;
 
 
     private void Update()
     {
-        moveSpeed = _platformerPlayerMovementSettings.moveSpeed;
-        moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, _playerRigidbody2D.velocity.y);
-        _playerRigidbody2D.velocity = moveDirection;
+        _moveSpeed = _playerMovementSettings.moveSpeed;
+        _moveDirection = new Vector2(Input.GetAxis("Horizontal") * _moveSpeed, _playerRigidbody2D.velocity.y);
+        _playerRigidbody2D.velocity = _moveDirection;
 
     }
 
