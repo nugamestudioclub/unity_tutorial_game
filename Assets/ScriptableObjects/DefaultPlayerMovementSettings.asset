@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: DefaultPlayerMovementSettings
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpHeight: 20
+  jumpHeight: 16
   downGravity: 1
